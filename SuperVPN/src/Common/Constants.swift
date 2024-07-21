@@ -28,4 +28,12 @@ class Constants {
         case Chinese = "zh-Hans"
     }
     
+    enum Storyboard: String {
+        case Main = "Main"
+        case Home = "Home"
+        case Splash = "SplashScreen"
+        case `Protocol` = "Protocol"
+        case Premium = "Premium"
+        case Language = "Language"
+    }
 }

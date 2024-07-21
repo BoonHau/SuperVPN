@@ -45,7 +45,7 @@ extension SplashViewController {
     
     private func performDelayedNavigation() {
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) { [weak self] in 
-            self?.navigateToViewController(storyboardName: "Home", viewControllerID: nil, type: UINavigationController.self)
+            self?.navigateToViewController(storyboardName: .Home, viewControllerID: nil, type: UINavigationController.self)
         }
     }
 }

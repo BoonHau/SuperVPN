@@ -129,7 +129,7 @@ extension HomeViewController {
     }
     
     private func setupHeader() {
-        navigateToViewController(storyboardName: "Protocol", viewControllerID: nil, type: UINavigationController.self)
+        navigateToViewController(storyboardName: .Protocol, viewControllerID: nil, type: UINavigationController.self)
     }
     
     private func setupSideMenu() {
@@ -185,21 +185,33 @@ extension HomeViewController {
     }
     
     @objc func actTogglePremium(_ sender: UITapGestureRecognizer) {
-        navigateToViewController(storyboardName: "Premium", viewControllerID: nil, type: UINavigationController.self)
+        navigateToViewController(storyboardName: .Premium, viewControllerID: nil, type: UINavigationController.self)
     }
     
     @objc func actToggleProtocol(_ sender: UITapGestureRecognizer) {
-        navigateToViewController(storyboardName: "Protocol", viewControllerID: nil, type: ProtocolViewController.self)
+        navigateToViewController(storyboardName: .Protocol, viewControllerID: nil, type: ProtocolViewController.self)
     }
 }
 
 
 extension HomeViewController: SideMenuProtocol {
     
-    func didSelectMenuItem(at indexPath: IndexPath) {
+    func didSelectMenuItem(at indexPath: IndexPath, itemType: SideMenuConstants.SideMenuItemType) {
         actToggleSideMenu()
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) { [weak self] in
-            self?.navigateToViewController(storyboardName: "Language", viewControllerID: nil, type: LanguageViewController.self)
+        
+        switch itemType {
+        case .header: break
+        case .support: break
+        case .proxyServer: break
+        case .otherDevices: break
+        case .language:
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) { [weak self] in
+                self?.navigateToViewController(storyboardName: .Language, viewControllerID: nil, type: LanguageViewController.self)
+            }
+            break
+        case .about: break
+        case .rateUs: break
+        case .shareVPN: break
         }
     }
     

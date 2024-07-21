@@ -11,9 +11,6 @@ class BaseViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-//        let tap = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
-//        view.addGestureRecognizer(tap)
     }
     
 }
@@ -29,15 +26,15 @@ extension BaseViewController {
     }
     
     // Generic method to navigate to another view controller in a different storyboard
-    func navigateToViewController<T: UIViewController>(storyboardName: String, viewControllerID: String?, type: T.Type, animated: Bool = true) {
-        let storyboard = UIStoryboard(name: storyboardName, bundle: nil)
+    func navigateToViewController<T: UIViewController>(storyboardName: Constants.Storyboard, viewControllerID: String?, type: T.Type, animated: Bool = true) {
+        let storyboard = UIStoryboard(name: storyboardName.rawValue, bundle: nil)
         let viewController: UIViewController
         
         if let safeViewControllerID = viewControllerID {
             
             // Instantiate using storyboard ID
             guard let instantiatedVC = storyboard.instantiateViewController(withIdentifier: safeViewControllerID) as? T else {
-                print("Error: Could not instantiate view controller with ID \(safeViewControllerID) in storyboard \(storyboardName).")
+                print("Error: Could not instantiate view controller with ID \(safeViewControllerID) in storyboard \(storyboardName.rawValue).")
                 return
             }
             viewController = instantiatedVC
@@ -45,7 +42,7 @@ extension BaseViewController {
             var test = storyboard.instantiateInitialViewController()
             // Instantiate using the initial view controller
             guard let initialVC = storyboard.instantiateInitialViewController() as? T else {
-                print("Error: Could not instantiate initial view controller in storyboard \(storyboardName).")
+                print("Error: Could not instantiate initial view controller in storyboard \(storyboardName.rawValue).")
                 return
             }
             viewController = initialVC

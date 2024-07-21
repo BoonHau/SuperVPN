@@ -10,6 +10,6 @@ import Foundation
 
 protocol SideMenuProtocol: NSObjectProtocol {
     
-    func didSelectMenuItem(at indexPath: IndexPath)
+    func didSelectMenuItem(at indexPath: IndexPath, itemType: SideMenuConstants.SideMenuItemType)
     
 }

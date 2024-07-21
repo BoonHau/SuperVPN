@@ -19,7 +19,6 @@ class SideMenuViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        sideMenuItems = DummyData.getSideMenuItems()
         // Do any additional setup after loading the view.
         initScreen()
         initTableView()
@@ -48,15 +47,15 @@ extension SideMenuViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let sideMenuItem = sideMenuItems[indexPath.row]
         
-        switch sideMenuItem.type {
+        switch sideMenuItem.itemType {
         case .header:
             if let cell = SideMenuHeaderTableViewCell.dequeueCell(from: tableView, indexPath: indexPath) as? SideMenuHeaderTableViewCell {
                 return cell
             }
             break
-        case .default1:
+        default:
             if let cell = SideMenuDefault1TableViewCell.dequeueCell(from: tableView, indexPath: indexPath) as? SideMenuDefault1TableViewCell {
-                cell.setupCell(icon: sideMenuItem.icon, title: sideMenuItem.title)
+                cell.setupCell(icon: sideMenuItem.icon, title: sideMenuItem.title, itemType: sideMenuItem.itemType)
                 return cell
             }
             break
@@ -65,7 +64,8 @@ extension SideMenuViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        delegate?.didSelectMenuItem(at: indexPath)
+        let sideMenuItem = sideMenuItems[indexPath.row]
+        delegate?.didSelectMenuItem(at: indexPath, itemType: sideMenuItem.itemType)
         
         // De-highlight the cell immediately after selection
         tableView.deselectRow(at: indexPath, animated: true)

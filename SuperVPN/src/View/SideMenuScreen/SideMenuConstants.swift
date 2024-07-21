@@ -10,9 +10,15 @@ import Foundation
 
 class SideMenuConstants {
     
-    enum CellType {
+    enum SideMenuItemType {
         case header
-        case default1
+        case support
+        case proxyServer
+        case otherDevices
+        case language
+        case about
+        case rateUs
+        case shareVPN
     }
     
 }

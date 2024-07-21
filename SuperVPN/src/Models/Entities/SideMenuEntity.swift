@@ -10,14 +10,14 @@ import Foundation
 
 class SideMenuEntity {
     
-    var title     : String
-    var icon      : UIImage
-    var type      : SideMenuConstants.CellType
+    var title : String
+    var icon  : UIImage
+    var itemType  : SideMenuConstants.SideMenuItemType
     
-    init(title: String, icon: UIImage, type: SideMenuConstants.CellType) {
+    init(title: String, icon: UIImage, itemType: SideMenuConstants.SideMenuItemType) {
         self.title = title
         self.icon  = icon
-        self.type  = type
+        self.itemType  = itemType
     }
     
 }

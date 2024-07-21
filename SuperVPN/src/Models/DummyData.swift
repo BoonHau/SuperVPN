@@ -27,14 +27,14 @@ class DummyData {
     
     static func getSideMenuItems() -> [SideMenuEntity] {
         return [
-            SideMenuEntity(title: "", icon: #imageLiteral(resourceName: "ic_support"), type: .header),
-            SideMenuEntity(title: "SUPPORT".toLocalized(), icon: #imageLiteral(resourceName: "ic_support"), type: .default1),
-            SideMenuEntity(title: "PROXY_SERVER".toLocalized(), icon: #imageLiteral(resourceName: "ic_server"), type: .default1),
-            SideMenuEntity(title: "USE_ON_OTHER_DEVICES".toLocalized(), icon: #imageLiteral(resourceName: "ic_devices"), type: .default1),
-            SideMenuEntity(title: "LANGUAGE".toLocalized(), icon: #imageLiteral(resourceName: "ic_languages"), type: .default1),
-            SideMenuEntity(title: "ABOUT".toLocalized(), icon: #imageLiteral(resourceName: "ic_about"), type: .default1),
-            SideMenuEntity(title: "RATE_US".toLocalized(), icon: #imageLiteral(resourceName: "ic_rate"), type: .default1),
-            SideMenuEntity(title: "SHARE_VPN".toLocalized(), icon: #imageLiteral(resourceName: "ic_share"), type: .default1)
+            SideMenuEntity(title: "", icon: #imageLiteral(resourceName: "ic_support"), itemType: .header),
+            SideMenuEntity(title: "SUPPORT".toLocalized(), icon: #imageLiteral(resourceName: "ic_support"), itemType: .support),
+            SideMenuEntity(title: "PROXY_SERVER".toLocalized(), icon: #imageLiteral(resourceName: "ic_server"), itemType: .proxyServer),
+            SideMenuEntity(title: "USE_ON_OTHER_DEVICES".toLocalized(), icon: #imageLiteral(resourceName: "ic_devices"), itemType: .otherDevices),
+            SideMenuEntity(title: "LANGUAGE".toLocalized(), icon: #imageLiteral(resourceName: "ic_languages"), itemType: .language),
+            SideMenuEntity(title: "ABOUT".toLocalized(), icon: #imageLiteral(resourceName: "ic_about"), itemType: .about),
+            SideMenuEntity(title: "RATE_US".toLocalized(), icon: #imageLiteral(resourceName: "ic_rate"), itemType: .rateUs),
+            SideMenuEntity(title: "SHARE_VPN".toLocalized(), icon: #imageLiteral(resourceName: "ic_share"), itemType: .shareVPN)
         ]
     }
     

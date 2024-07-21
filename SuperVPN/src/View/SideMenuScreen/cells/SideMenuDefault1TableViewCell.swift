@@ -13,6 +13,9 @@ class SideMenuDefault1TableViewCell: BaseTableViewCell {
     @IBOutlet weak var ivIcon: UIImageView!
     @IBOutlet weak var lblTitle: UILabel!
     
+    // Variable
+    private var itemType: SideMenuConstants.SideMenuItemType?
+    
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -30,9 +33,10 @@ class SideMenuDefault1TableViewCell: BaseTableViewCell {
 
 extension SideMenuDefault1TableViewCell {
     
-    func setupCell(icon: UIImage, title: String) {
+    func setupCell(icon: UIImage, title: String, itemType: SideMenuConstants.SideMenuItemType) {
         ivIcon.image = icon
         lblTitle.text = title
+        self.itemType = itemType
     }
     
 }
