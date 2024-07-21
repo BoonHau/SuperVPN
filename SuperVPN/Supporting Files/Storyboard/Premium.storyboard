@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vwP-Nh-I0w">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Premium View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="PremiumViewController" customModule="SuperVPN" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="moL-2s-nkJ" customClass="CustomHeader" customModule="SuperVPN" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="59" width="393" height="64"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="3TD-pz-Xer"/>
+                                </constraints>
+                            </view>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t4h-wh-I4v">
+                                <rect key="frame" x="0.0" y="123" width="393" height="695"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Tfe-tw-14w">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="0.0"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wr6-99-7oU">
+                                                <rect key="frame" x="0.0" y="0.0" width="393" height="0.0"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="0.10000000000000001" id="quB-jm-3Rr"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="Tfe-tw-14w" firstAttribute="top" secondItem="9ed-GX-oNX" secondAttribute="top" id="4zL-ib-XVp"/>
+                                    <constraint firstItem="Tfe-tw-14w" firstAttribute="leading" secondItem="9ed-GX-oNX" secondAttribute="leading" id="8sm-pf-6SM"/>
+                                    <constraint firstItem="Tfe-tw-14w" firstAttribute="width" secondItem="Uct-d1-nN9" secondAttribute="width" id="HKf-dM-cls"/>
+                                    <constraint firstItem="Tfe-tw-14w" firstAttribute="trailing" secondItem="9ed-GX-oNX" secondAttribute="trailing" id="Lbg-7n-diu"/>
+                                    <constraint firstItem="Tfe-tw-14w" firstAttribute="bottom" secondItem="9ed-GX-oNX" secondAttribute="bottom" id="QfS-0u-u5T"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="9ed-GX-oNX"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="Uct-d1-nN9"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="t4h-wh-I4v" firstAttribute="bottom" secondItem="vDu-zF-Fre" secondAttribute="bottom" id="4yv-Up-2XW"/>
+                            <constraint firstItem="moL-2s-nkJ" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="6I6-GB-mVB"/>
+                            <constraint firstItem="t4h-wh-I4v" firstAttribute="top" secondItem="moL-2s-nkJ" secondAttribute="bottom" id="OQL-TH-7ul"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="moL-2s-nkJ" secondAttribute="trailing" id="T0h-m5-Tbr"/>
+                            <constraint firstItem="moL-2s-nkJ" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="bhG-dM-j1s"/>
+                            <constraint firstItem="t4h-wh-I4v" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="kLx-Z5-JFZ"/>
+                            <constraint firstItem="t4h-wh-I4v" firstAttribute="top" secondItem="moL-2s-nkJ" secondAttribute="bottom" id="vfb-0G-Hf3"/>
+                            <constraint firstItem="t4h-wh-I4v" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="w1w-bF-OEO"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="sfN-je-qfZ"/>
+                    <connections>
+                        <outlet property="vwHeader" destination="moL-2s-nkJ" id="l60-tR-c7z"/>
+                        <outlet property="vwStackView" destination="Tfe-tw-14w" id="t0F-Cj-aeY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1990.0763358778624" y="3.5211267605633805"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="w3R-f3-k2J">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" navigationBarHidden="YES" id="vwP-Nh-I0w" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="XRO-Np-O22">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="X0T-QD-kTS"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cUD-Al-EaK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1063.3587786259541" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+</document>

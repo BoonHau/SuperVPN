@@ -1,0 +1,98 @@
+/* 
+  Localizable.strings
+  SuperVPN
+
+  Created by Boon Hau Chu on 20/07/2024.
+  
+*/
+
+// General
+"AUTO" = "自动";
+"HIDDEN_TLS" = "隐藏-TLS";
+"EVEREST" = "珠穆朗玛峰";
+"UDP" = "UDP";
+"TCP" = "TCP";
+"TLS" = "TLS";
+"HTTP" = "HTTP";
+"FTP" = "FTP";
+"(RECOMENDED)" = "(推荐)";
+"PREMIUM" = "高级";
+"APPLY" = "应用";
+"DEFAULT" = "默认";
+"CHANGE" = "更改";
+"CONTINUE" = "继续";
+"SIGN_IN" = "登录";
+"RESTORE_PURCHASES" = "恢复购买";
+
+"BEST_VALUE" = "最佳价值";
+"YEARLY" = "每年";
+"MONTHLY" = "每月";
+"WEEKLY" = "每周";
+
+
+// Splash Screen
+"FREE_VPN_SUPER" = "超级免费VPN";
+
+// Home Screen
+"GO_PREMIUM!" = "升级为高级版!";
+"VPN_IS_ON" = "VPN 已开启";
+"VPN_IS_OFF" = "VPN 已关闭";
+"SELECT_LOCATION" = "选择位置";
+
+"GO_PREMIUM_NOW" = "立即升级为高级版";
+"FASTER_SPEED" = "更快的速度";
+"WORLDWIDE_LOCATION" = "全球位置";
+"STREAMING_SERVERS" = "流媒体服务器";
+"NO_ADS" = "无广告";
+"SAVE_36%" = "节省36%";
+"YEARLY_PLAN" = "年度计划";
+
+"PRIVATE_BROWSER" = "私密浏览器";
+"ADVANCED_FEATURES" = "高级功能";
+
+"FREE" = "免费";
+"PREMIUM" = "高级版";
+"SPEED" = "速度";
+"LOCATIONS" = "位置";
+"SERVERS" = "服务器";
+"NO_ADS" = "无广告";
+"1_:_1_SUPPORT" = "一对一支持";
+"FAST" = "快速";
+"ULTRA_FAST" = "超快速";
+
+
+// Side Menu
+"SIGN_IN_/_SIGN_UP" = "登录 / 注册";
+"FREE_ACCOUNT" = "免费账户";
+"SUPPORT" = "支持";
+"PROXY_SERVER" = "代理服务器";
+"USE_ON_OTHER_DEVICES" = "在其他设备上使用";
+"LANGUAGE" = "语言";
+"ABOUT" = "关于";
+"RATE_US" = "评价我们";
+"SHARE_VPN" = "分享VPN";
+
+// Protocol Screen
+"PROTOCOL" = "协议";
+"PROTOCOL_MSG" = "尝试不同的协议以获得更快、更可靠的连接，并解决任何问题。";
+"PROTOCOL_AUTO" = "VPN 将选择最适合您网络的协议";
+"PROTOCOL_HIDDEN_TLS_MSG" = "比 HTTP 优化了隐私和安全，但可能会较慢。";
+"PROTOCOL_EVEREST_MSG" = "我们独有的协议，稳定、安全，连接成功率高。";
+"PROTOCOL_UDP_MSG" = "简单快速，在某些网络条件下可能不稳定。";
+"PROTOCOL_TCP_MSG" = "速度与稳定性的平衡，适用于所有网络。";
+"PROTOCOL_COMMON_MSG" = "高安全性、可靠性和稳定性。";
+"PROTOCOL_WEB_DOMAIN_MSG" = "基于 HTTP 的协议设置：添加网站域名以提高基于 HTTP 的协议的连接率。";
+"PROTOCOL_WEB_DOMAIN_INPUT_MSG" = "输入您可以访问的域名";
+
+
+// Premium Screen
+"PREMIUM_YEARLY_MSG" = "首7天免费 |  然后每年 $73.99";
+"PREMIUM_MONTHLY_MSG" = "首7天免费 |  然后每月 $12.49";
+"PREMIUM_WEEKLY_MSG" = "首7天免费 |  然后每周 $3.99";
+"PREMIUM_EXCLUSIVE_BENEFITS_MSG" = "享受高级版独家福利";
+
+// Language Screen
+"RESTART_REQUIRED_TITLE" = "需要重启";
+"RESTART_REQUIRED_MSG" = "应用需要重启以应用更改。您想现在重启吗？";
+"RESTART" = "重启";
+"CANCEL" = "取消";

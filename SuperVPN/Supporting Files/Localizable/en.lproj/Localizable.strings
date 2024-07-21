@@ -1,0 +1,98 @@
+/* 
+  Localizable.strings
+  SuperVPN
+
+  Created by Boon Hau Chu on 20/07/2024.
+  
+*/
+
+// General
+"AUTO" = "Auto";
+"HIDDEN_TLS" = "Hidden-TLS";
+"EVEREST" = "Everest";
+"UDP" = "UDP";
+"TCP" = "TCP";
+"TLS" = "TLS";
+"HTTP" = "HTTP";
+"FTP" = "FTP";
+"(RECOMENDED)" = "(recomended)";
+"PREMIUM" = "Premium";
+"APPLY" = "Apply";
+"DEFAULT" = "Default";
+"CHANGE" = "Change";
+"CONTINUE" = "Continue";
+"SIGN_IN" = "Sign In";
+"RESTORE_PURCHASES" = "Restore Purchases";
+
+"BEST_VALUE" = "Best Value";
+"YEARLY" = "Yearly";
+"MONTHLY" = "Monthly";
+"WEEKLY" = "Weekly";
+
+
+// Splash Screen
+"FREE_VPN_SUPER" = "Free VPN Super";
+
+// Home Screen
+"GO_PREMIUM!" = "Go Premium!";
+"VPN_IS_ON" = "VPN IS ON";
+"VPN_IS_OFF" = "VPN IS OFF";
+"SELECT_LOCATION" = "Select Location";
+
+"GO_PREMIUM_NOW" = "GO PREMIUM NOW";
+"FASTER_SPEED" = "Faster Speed";
+"WORLDWIDE_LOCATION" = "Worldwide Location";
+"STREAMING_SERVERS" = "Streaming Servers";
+"NO_ADS" = "No Ads";
+"SAVE_36%" = "Save 36%";
+"YEARLY_PLAN" = "Yearly Plan";
+
+"PRIVATE_BROWSER" = "Private Browser";
+"ADVANCED_FEATURES" = "Advanced Features";
+
+"FREE" = "Free";
+"PREMIUM" = "Premium";
+"SPEED" = "Speed";
+"LOCATIONS" = "Locations";
+"SERVERS" = "Servers";
+"NO_ADS" = "No Ads";
+"1_:_1_SUPPORT" = "1 : 1 Support";
+"FAST" = "Fast";
+"ULTRA_FAST" = "Ultra Fast";
+
+
+// Side Menu
+"SIGN_IN_/_SIGN_UP" = "Sign In / Sign Up";
+"FREE_ACCOUNT" = "Free Account";
+"SUPPORT" = "Support";
+"PROXY_SERVER" = "Proxy Server";
+"USE_ON_OTHER_DEVICES" = "Use On Other Devices";
+"LANGUAGE" = "Language";
+"ABOUT" = "About";
+"RATE_US" = "Rate Us";
+"SHARE_VPN" = "Share VPN";
+
+// Protocol Screen
+"PROTOCOL" = "Protocol";
+"PROTOCOL_MSG" = "Try different protocols for faster, more reliable connections, addressing any issues.";
+"PROTOCOL_AUTO" = "VPN will select protocol that is most appropriate for your network";
+"PROTOCOL_HIDDEN_TLS_MSG" = "Optimized privacy and security than HTTP, but may be slower.";
+"PROTOCOL_EVEREST_MSG" = "Our exclusive protocol, which is stable, secure, and with a high connection success rate.";
+"PROTOCOL_UDP_MSG" = "Simple and fast, maybe unstable under certain network conditions.";
+"PROTOCOL_TCP_MSG" = "The balance of speed and stability, universal for all networks.";
+"PROTOCOL_COMMON_MSG" = "High security, reliability, and stability.";
+"PROTOCOL_WEB_DOMAIN_MSG" = "Settings for protocols based on HTTP: Add web domain to improve connection rate of protocols based on HTTP.";
+"PROTOCOL_WEB_DOMAIN_INPUT_MSG" = "Enter a domain you can access";
+
+
+// Premium Screen
+"PREMIUM_YEARLY_MSG" = "First 7 days free |  Then $73.99 per year";
+"PREMIUM_MONTHLY_MSG" = "First 7 days free |  Then $ 12.49 per month";
+"PREMIUM_WEEKLY_MSG" = "First 7 days free |  Then $ 3.99 per week";
+"PREMIUM_EXCLUSIVE_BENEFITS_MSG" = "Enjoy Exclusive Benefits of Premium";
+
+// Language Screen
+"RESTART_REQUIRED_TITLE" = "Restart Required";
+"RESTART_REQUIRED_MSG" = "The app needs to restart to apply the changes. Do you want to restart now?";
+"RESTART" = "Restart";
+"CANCEL" = "Cancel";
