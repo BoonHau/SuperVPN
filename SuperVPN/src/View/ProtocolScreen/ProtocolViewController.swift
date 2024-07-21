@@ -15,7 +15,7 @@ class ProtocolViewController: BaseViewController {
     @IBOutlet weak var tableView  : UITableView!
     
     // Variables
-    private var protocols = DummyData.getProtocols()
+    private var viewModel = ProtocolViewModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,19 +23,14 @@ class ProtocolViewController: BaseViewController {
         // Do any additional setup after loading the view.
         initScreen()
         initTableView()
+        initBinding()
+        viewModel.fetchProtocols()
     }
+}
 
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+extension ProtocolViewController {
+    
     override func initScreen() {
         super.initScreen()
         
@@ -49,22 +44,27 @@ class ProtocolViewController: BaseViewController {
         ProtocolDefault2TableViewCell.register(to: tableView)
         ProtocolWebDomainTableViewCell.register(to: tableView)
     }
-}
-
-
-extension ProtocolViewController {
     
+    private func initBinding() {
+        
+        viewModel.$protocols
+            .receive(on: DispatchQueue.main)
+            .sink { [weak self] _ in
+                self?.tableView.reloadData()
+            }
+            .store(in: &cancellables)
+    }
 }
 
 
 extension ProtocolViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return protocols.count
+        return viewModel.protocols.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let item = protocols[indexPath.row]
+        let item = viewModel.protocols[indexPath.row]
         
         switch item.type {
         case .default1:

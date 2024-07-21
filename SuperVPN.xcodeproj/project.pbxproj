@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 63;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,8 @@
 		9E4912F02C49F1910078DAA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4912EF2C49F1910078DAA9 /* AppDelegate.swift */; };
 		9E4912F22C49F1910078DAA9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4912F12C49F1910078DAA9 /* SceneDelegate.swift */; };
 		9E4912F92C49F1980078DAA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E4912F82C49F1980078DAA9 /* Assets.xcassets */; };
+		9E705D242C4D5374009AABAA /* ProtocolViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E705D232C4D5374009AABAA /* ProtocolViewModel.swift */; };
+		9E705D262C4D5510009AABAA /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E705D252C4D5510009AABAA /* BaseViewModel.swift */; };
 		9E9FA1552C4A04FB003033B4 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9FA1542C4A04FB003033B4 /* BaseViewController.swift */; };
 		9E9FA1572C4A05EF003033B4 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9FA1562C4A05EF003033B4 /* UIView+Extensions.swift */; };
 		9E9FA15E2C4A16B1003033B4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9FA15B2C4A16B1003033B4 /* HomeViewController.swift */; };
@@ -86,6 +88,8 @@
 		9E4912F12C49F1910078DAA9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9E4912F82C49F1980078DAA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E4912FD2C49F1980078DAA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E705D232C4D5374009AABAA /* ProtocolViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolViewModel.swift; sourceTree = "<group>"; };
+		9E705D252C4D5510009AABAA /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		9E9FA1542C4A04FB003033B4 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		9E9FA1562C4A05EF003033B4 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		9E9FA15B2C4A16B1003033B4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -198,6 +202,13 @@
 			path = SuperVPN;
 			sourceTree = "<group>";
 		};
+		9E705D272C4D5799009AABAA /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		9E9FA1582C4A1653003033B4 /* HomeScreen */ = {
 			isa = PBXGroup;
 			children = (
@@ -261,6 +272,7 @@
 		9EBFB25C2C49F75000412753 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				9E705D272C4D5799009AABAA /* Networking */,
 				9ED6DB532C4A6EED00778913 /* Models */,
 				9EBFB2662C49F80100412753 /* Core */,
 				9EBFB2652C49F7F500412753 /* Common */,
@@ -338,6 +350,7 @@
 		9EBFB2632C49F7D700412753 /* View Model */ = {
 			isa = PBXGroup;
 			children = (
+				9E705D232C4D5374009AABAA /* ProtocolViewModel.swift */,
 			);
 			path = "View Model";
 			sourceTree = "<group>";
@@ -379,6 +392,7 @@
 				9E9FA1542C4A04FB003033B4 /* BaseViewController.swift */,
 				9EAFC1B72C4A57970065EB35 /* BaseView.swift */,
 				9ED6DB4D2C4A66C000778913 /* BaseTableViewCell.swift */,
+				9E705D252C4D5510009AABAA /* BaseViewModel.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -484,7 +498,7 @@
 				};
 			};
 			buildConfigurationList = 9E4912E72C49F1910078DAA9 /* Build configuration list for PBXProject "SuperVPN" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 15.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -596,6 +610,8 @@
 				9EA372B82C4B438F00EB66A1 /* ExclusiveBenefitsView.swift in Sources */,
 				9E02A65F2C4C0FFA0067049B /* String+Extensions.swift in Sources */,
 				9EBFB26F2C49F8FF00412753 /* UIColor+Extensions.swift in Sources */,
+				9E705D262C4D5510009AABAA /* BaseViewModel.swift in Sources */,
+				9E705D242C4D5374009AABAA /* ProtocolViewModel.swift in Sources */,
 				9EA7A43A2C4B91CE002410E6 /* ExclusiveFooterView.swift in Sources */,
 				9EAFC1A32C4A4DF20065EB35 /* SideMenuViewController.swift in Sources */,
 				9EF487472C4CEBF7008D1797 /* DefaultTableViewCell.swift in Sources */,

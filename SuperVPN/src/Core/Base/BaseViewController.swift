@@ -6,9 +6,12 @@
 //
 
 import UIKit
+import Combine
 
 class BaseViewController: UIViewController {
 
+    var cancellables = Set<AnyCancellable>()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -39,7 +42,7 @@ extension BaseViewController {
             }
             viewController = instantiatedVC
         } else {
-            var test = storyboard.instantiateInitialViewController()
+            
             // Instantiate using the initial view controller
             guard let initialVC = storyboard.instantiateInitialViewController() as? T else {
                 print("Error: Could not instantiate initial view controller in storyboard \(storyboardName.rawValue).")
