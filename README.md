@@ -2,9 +2,7 @@
 
 English Version
 
-![Simulator Screenshot - iPhone 15 Pro - 2024-07-21 at 18 43 48](https://github.com/user-attachments/assets/956d4f23-173a-4fbf-af9c-439bc4118779)
-
-![Simulator Screenshot - iPhone 15 Pro - 2024-07-21 at 18 22 02](https://github.com/user-attachments/assets/65c731c0-46b7-4111-ac66-7bd6e8ad482c)
+![Simulator Screenshot - iPhone 15 Pro - 2024-07-21 at 18 43 48](https://github.com/user-attachments/assets/956d4f23-173a-4fbf-af9c-439bc4118779)  ![Simulator Screenshot - iPhone 15 Pro - 2024-07-21 at 18 22 02](https://github.com/user-attachments/assets/65c731c0-46b7-4111-ac66-7bd6e8ad482c)
 
 ![Simulator Screenshot - iPhone 15 Pro - 2024-07-21 at 18 22 14](https://github.com/user-attachments/assets/4bfea409-f55a-436e-a285-8c43a0af9f7c)
 
