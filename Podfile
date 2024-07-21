@@ -6,5 +6,6 @@ target 'SuperVPN' do
   use_frameworks!
 
   # Pods for SuperVPN
-  pod 'FontAwesome.swift'
+  pod 'FontAwesome.swift', '1.9.1'
+  pod 'IQKeyboardManager', '6.5.19'
 end

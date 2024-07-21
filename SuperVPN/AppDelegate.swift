@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import IQKeyboardManager
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -13,8 +14,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        Localization.shared.setLanguage(languageCode: UserDefaultsHelper.shared.language ?? "en")
+        
+        // Initialize Language
+        initLanguage()
+        
+        // Initialize IQKeyboard
+        initIQKeyboard()
         return true
     }
 
@@ -42,6 +47,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 extension AppDelegate {
+    
+    private func initLanguage() {
+        Localization.shared.setLanguage(languageCode: UserDefaultsHelper.shared.language ?? "en")
+    }
+    
+    private func initIQKeyboard() {
+        
+        // Initialize IQKeyboard gloablly
+        IQKeyboardManager.shared().isEnabled = true
+        IQKeyboardManager.shared().shouldResignOnTouchOutside = true
+    }
     
     func restartApp() {
         Localization.shared.setLanguage(languageCode: UserDefaultsHelper.shared.language ?? "en")

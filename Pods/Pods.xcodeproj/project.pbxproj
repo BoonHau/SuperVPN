@@ -7,99 +7,208 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0267DA7411E4063EF9CE2932DB83B3FA /* Font Awesome 5 Free-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = B3CB4D5D38142B55F8DEA8FE8DEE31FC /* Font Awesome 5 Free-Regular-400.otf */; };
+		014014F78C4B1EC4431614CFBF3F429A /* IQKeyboardReturnKeyHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F59BCB4ADE8F388FF1FA45D3E2DF3C7 /* IQKeyboardReturnKeyHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02B1C78D251F083443456460670FED57 /* IQToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2F30917FE42948D4B3F3F26A692736 /* IQToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		077964993B08A24201C4458ADCBED187 /* FontAwesome.swift-FontAwesome.swift in Resources */ = {isa = PBXBuildFile; fileRef = 3DA4F5DC4EB6E9DF6B4859D27EF8C9F5 /* FontAwesome.swift-FontAwesome.swift */; };
-		1E5E850FC8D5C3051DF29D08E75EB413 /* FontAwesomeStateRequirement.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94CC7AB4FF680DB38539D6AA320CFBB /* FontAwesomeStateRequirement.swift */; };
-		27F575438D93027269C50D1F3B8D46CD /* FontAwesomeImageRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19345E990FA51277E90825444CE24055 /* FontAwesomeImageRepresentable.swift */; };
-		2A9B2BF3072A65C88836F7937AC8DA9F /* FontAwesomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E981CCC025D6FB512CFBCFA3F6AC598 /* FontAwesomeView.swift */; };
-		3237B713E08EA39D3CF26FC4C98885C4 /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5CDD445FDD6EB85068C753708096D0 /* FontAwesome.swift */; };
-		3B4EE5092420ADC7C5324AA300D7B640 /* Pods-SuperVPN-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC9B2D4053805AB0442865DD784AB96 /* Pods-SuperVPN-dummy.m */; };
-		3B895470C357B7298A097AB701C8D2E9 /* FontAwesomeSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEE99B982DB5D64D49BBC97032E92D0 /* FontAwesomeSegmentedControl.swift */; };
-		3E870C76A3B0669EC52F74804AE22C9B /* FontAwesomeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D10D907C88996A1A72DB1524D9C6A6 /* FontAwesomeExtension.swift */; };
-		667769AC064D2CC97F198C2E8F12AE6C /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD5E916D3C7E2E35D64B2372863FFAC /* Enum.swift */; };
-		7B065465BDC9CC3E19794775B7DDB98D /* FontAwesomeTextRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB35BA25BCF5481EA98DD604D4CDA3C8 /* FontAwesomeTextRepresentable.swift */; };
-		7E29A5A984554B002E40C07209CF75FC /* FontAwesomeTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4498CD77CA56A303105D868CBEC8B16C /* FontAwesomeTabBarItem.swift */; };
-		90B829486C73003C302369045D4F8DB2 /* Font Awesome 5 Brands-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C2C1CEBA90EF2313D7B6470D6ABC8F4 /* Font Awesome 5 Brands-Regular-400.otf */; };
-		AA340657015839AA3B1F125704AD264B /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFA76860B506E69F08B0B154D70C038E /* CoreText.framework */; };
-		ACCCC6E40B3B72917E93F699A3D8E0B6 /* Pods-SuperVPN-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 125D196F23105F0A54221711660E0D0F /* Pods-SuperVPN-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF438BAA8F25B4D8CDC90CEC8051F98C /* Font Awesome 5 Free-Solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = B868AB6D6A014D620C0AE1EC63AB8DB2 /* Font Awesome 5 Free-Solid-900.otf */; };
-		C79240CBEABE439685B219E0E1DD69BE /* FontAwesome.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0C25707AB1DDAD570F667B1B04CAF1 /* FontAwesome.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CEBE3CEA5D715A76CDDED85B9589D578 /* FontAwesomeImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674D1D40192DD60CDCE454FA8FDB2FA7 /* FontAwesomeImageView.swift */; };
-		D3D42240C17AA84716A4E708D680833C /* FontAwesome.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D082EE12AF449DF2F3A809A21111C6B5 /* FontAwesome.swift-dummy.m */; };
-		EC2E1AD6B7247FD7123BC50CADFD8E24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF26CFF1E862548F8E456C64372DC06 /* Foundation.framework */; };
-		EE16E9F35C5A466B28E6B9973CE4E98E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF26CFF1E862548F8E456C64372DC06 /* Foundation.framework */; };
-		F8D3B3B3720BF695C709547A2E7AD085 /* FontAwesomeBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B515EB03A3A8D03F85B1CA2FC5781F70 /* FontAwesomeBarButtonItem.swift */; };
-		FBA64721DC6465037C07C713664308B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74D207BDA239A25C1380A816F90FF59 /* UIKit.framework */; };
+		17CE39CC931E3E63BD4F36A6182EAA76 /* Pods-SuperVPN-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC9B2D4053805AB0442865DD784AB96 /* Pods-SuperVPN-dummy.m */; };
+		1E5E850FC8D5C3051DF29D08E75EB413 /* FontAwesomeStateRequirement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931D15767ABBC58AEC4E33CE70229711 /* FontAwesomeStateRequirement.swift */; };
+		2071C1BF1EF3595212294FBFABCFAB5E /* IQUIScrollView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 39A79B366175E956733CFCF8F5FE211F /* IQUIScrollView+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25535EF5C82FB16868360CB8D8C91470 /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 19BBB2E899017B099CD725439A93A4FC /* IQKeyboardManager.m */; };
+		26666110EDDA244F2FCDAD126BD9DB13 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50845B3662F1DEF05A6DC77B8FF8CA36 /* QuartzCore.framework */; };
+		26726C36F077800D0DFFAB54C882DE9D /* IQUIViewController+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BCEA5E111A49C497F5458E347C18D65 /* IQUIViewController+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27F575438D93027269C50D1F3B8D46CD /* FontAwesomeImageRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75EE20571036BEDA686FDA07DF4CD5F /* FontAwesomeImageRepresentable.swift */; };
+		2A9B2BF3072A65C88836F7937AC8DA9F /* FontAwesomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48062DEE097403829F7FBB8B2F8FB741 /* FontAwesomeView.swift */; };
+		30527ED48ADA9326648216F95C7D8363 /* IQKeyboardManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2729FD190D70FC51FA8B0518DD802B12 /* IQKeyboardManager-dummy.m */; };
+		3237B713E08EA39D3CF26FC4C98885C4 /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAF8215E958267CF565729FC78189FB /* FontAwesome.swift */; };
+		3B895470C357B7298A097AB701C8D2E9 /* FontAwesomeSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28239AED29C5FE5D10F37AEE68C7811 /* FontAwesomeSegmentedControl.swift */; };
+		3E870C76A3B0669EC52F74804AE22C9B /* FontAwesomeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883E3CF95B96CC571E29C85E41D7435D /* FontAwesomeExtension.swift */; };
+		3F1EEB44A05489A1956820CA6153E14F /* IQKeyboardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EAFD40EDB110D0C3833D103B63749DA3 /* IQKeyboardManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FDCB355346F9831636DE0992226FD83 /* IQUITextFieldView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A93477DCC29D3ECC5DF5F2937BBE1E3 /* IQUITextFieldView+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4086DD1C562716BEEC66AD025A22F94D /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C773EC1431A7E3C1D851EADE8D4C18 /* IQUIViewController+Additions.m */; };
+		47857B9C99D27CA560A780D28D4A8D47 /* IQNSArray+Sort.h in Headers */ = {isa = PBXBuildFile; fileRef = 938A2C2A6463CF28469330F0BEB7874E /* IQNSArray+Sort.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		52E27DD1EB9069FE32F07DC519501016 /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D50F22BDDEAB8D681BAACB910F713F /* IQTextView.m */; };
+		532685419365EAACAF8A3386E5CFF35F /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = DFABF3B77797C6C8E70F554239893592 /* IQUITextFieldView+Additions.m */; };
+		5A36EC9DDB56E7F0367C19DCB4156AF2 /* IQPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CBDFD403E34151BC356DD8BB3B69B3 /* IQPreviousNextView.m */; };
+		60A20CA162F4C986ECCBC795C6BA6998 /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F51EC7B0878CA6864AFA0CD6E81707 /* IQBarButtonItem.m */; };
+		667769AC064D2CC97F198C2E8F12AE6C /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C61D20EA4DA9205DCA7DE696F94820E /* Enum.swift */; };
+		67A9FEA243EAA11139BEA6208D7AFB6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE8728ED71F32E583651ED5E4B47B0F7 /* UIKit.framework */; };
+		687CE862203646EA92B2733BB8159202 /* IQUIView+IQKeyboardToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = DFBA7E0CBF6ACEC66A45B85C313FEA4D /* IQUIView+IQKeyboardToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69BE2AFC237F2F3D8287572E4799ED8C /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1313BE9F4A647DE003398BD83298D087 /* IQKeyboardReturnKeyHandler.m */; };
+		6A6E724315DF53637BAF9EE1989A8BC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63DDF1DFF2814A045C0152DEE85CF158 /* Foundation.framework */; };
+		778C9F7C05B1ED491D5328FF23B7EE68 /* Font Awesome 5 Free-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A3DF0872937CB8BC71E42B0CE27C1E6 /* Font Awesome 5 Free-Regular-400.otf */; };
+		7B065465BDC9CC3E19794775B7DDB98D /* FontAwesomeTextRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC6F1CCBF8F9879DDB6F5B128C5F24 /* FontAwesomeTextRepresentable.swift */; };
+		7E29A5A984554B002E40C07209CF75FC /* FontAwesomeTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E484A73B17A5BAC5568816B07753471 /* FontAwesomeTabBarItem.swift */; };
+		7F37541B413DB0BC2F271BF4153837FC /* IQKeyboardManagerConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 605FDC80F9FFDCF2F456F1CC4155D5DC /* IQKeyboardManagerConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CDADDF28912AE948997ED06496066E9 /* Pods-SuperVPN-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 125D196F23105F0A54221711660E0D0F /* Pods-SuperVPN-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		964FD3739E0AD429574C8CD23FB92027 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63DDF1DFF2814A045C0152DEE85CF158 /* Foundation.framework */; };
+		9853AA203CC30AD5C36E609A5AFFFB91 /* IQKeyboardManagerConstantsInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FA4E233A182C1BE8E8E9B280ECA2EEB /* IQKeyboardManagerConstantsInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9A38BDEC665BA2A8095CE65B6723D723 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 2EB128003C00B1AAA2FB1AF8DC6305A3 /* PrivacyInfo.xcprivacy */; };
+		A00993110AB4A59FB2C48FB3ACABD7AF /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0220B2EB39A1602A4E40FFDF36642CA0 /* IQUIView+IQKeyboardToolbar.m */; };
+		A06677AF68A61857F6B51B3B29B8C5CA /* Font Awesome 5 Brands-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = DA1BA5940A15C50A7EC981706E3878F5 /* Font Awesome 5 Brands-Regular-400.otf */; };
+		A59D379D21A2352A9665371A3B49B83A /* IQTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 615F79EBB0BB2F665F9FA259F6C5B3C2 /* IQTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA340657015839AA3B1F125704AD264B /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B26682EFF87D0EDC1CEC211FAEF7812 /* CoreText.framework */; };
+		AA88AECD3DD41CB4A264A9E2BD4AC5E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C498525A9624D2F9E43E2198D50EA60C /* CoreGraphics.framework */; };
+		B3146B3F1B81DE0D8AEA1AAC719D7768 /* IQTitleBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = C81FEF6DB7B9B8814F015829DCA8D28C /* IQTitleBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6CE6D909F3C5430CF6B4DFBF38173BC /* IQPreviousNextView.h in Headers */ = {isa = PBXBuildFile; fileRef = E8A0D1B72DD815DEF859090AD1EB0217 /* IQPreviousNextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB29DE47D5DBB278F6DA9173105F0A87 /* IQKeyboardManager-IQKeyboardManager in Resources */ = {isa = PBXBuildFile; fileRef = A5B2838E4866923F3DA717B058EBFF5D /* IQKeyboardManager-IQKeyboardManager */; };
+		BDA6686CAAF262A77287EA22AD37E38F /* IQKeyboardManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CA552F963A304ABEAE0477A31EC429E /* IQKeyboardManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BECFA91B45D866C5081400F8D1EAA609 /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8C84601A09058C83419D53FEFA4703 /* IQUIView+Hierarchy.m */; };
+		C74044BF8687B9ACEFA4A18FC68B017B /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF9AF4D47FC962D1C3849AB7E14F0B6 /* IQNSArray+Sort.m */; };
+		C79240CBEABE439685B219E0E1DD69BE /* FontAwesome.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0123E7F21D32FED2BF11C850B010B301 /* FontAwesome.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC7C96CF59D76614AFEE2E9388D4D313 /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7E08464E47FA3B4CF478C420FC05E4 /* IQTitleBarButtonItem.m */; };
+		CEBE3CEA5D715A76CDDED85B9589D578 /* FontAwesomeImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEF0E490F06EBA493BADDC464043BFA /* FontAwesomeImageView.swift */; };
+		D11F97E48838E6CA6ED6BCF05C77D7AB /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF5DC764AC71F1FE1439384DF9D3250 /* IQUIScrollView+Additions.m */; };
+		D3D42240C17AA84716A4E708D680833C /* FontAwesome.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 738EE4B083DD531C1F1F122D1627C050 /* FontAwesome.swift-dummy.m */; };
+		EDD0AA344377A4451F9AC69948C4DEEA /* Font Awesome 5 Free-Solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = AB7DABF52E19EC57600E73E4FD97ADA0 /* Font Awesome 5 Free-Solid-900.otf */; };
+		EE16E9F35C5A466B28E6B9973CE4E98E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63DDF1DFF2814A045C0152DEE85CF158 /* Foundation.framework */; };
+		F1A0C4C171E15A63FC9D1724BB9EEA7C /* IQUIView+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CAABB824F92A8F5554A3ED2BBDFD7DB /* IQUIView+Hierarchy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8D3B3B3720BF695C709547A2E7AD085 /* FontAwesomeBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA180922B02036602BF8E589A4D4AACF /* FontAwesomeBarButtonItem.swift */; };
+		F8F3DA03BA18E15BF539D477A6EE697C /* IQBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 18063F71C1B157877566B44EFD0A38EB /* IQBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBA64721DC6465037C07C713664308B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE8728ED71F32E583651ED5E4B47B0F7 /* UIKit.framework */; };
+		FCB2571FCBAF799FD83077DD907823A5 /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0768DB51B1463586D16ADFE0133FA306 /* IQToolbar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		31EF0AD5ED7B64C8B603700A4FE1C247 /* PBXContainerItemProxy */ = {
+		24DF3F3F26E0FC1AA1174959CA63AAE1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4DC20DD2E50259D674257304EC016C93;
-			remoteInfo = "FontAwesome.swift-FontAwesome.swift";
+			remoteGlobalIDString = FBA456CB50E371584C11231929A0971E;
+			remoteInfo = IQKeyboardManager;
 		};
-		73296DDBFB73581B4F2CE3A087F4EE4F /* PBXContainerItemProxy */ = {
+		8EEDE4626488A85DC0D8CEF88A65ECDB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BB240150692F32EC312F3CF346C8B9D1;
 			remoteInfo = FontAwesome.swift;
 		};
+		A631EA8F58BB973154618BBE0F33A9B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DC20DD2E50259D674257304EC016C93;
+			remoteInfo = "FontAwesome.swift-FontAwesome.swift";
+		};
+		BBC8CF1D8779DE19C596558B2FE24A64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05B2A835D60F78761395189914B88047;
+			remoteInfo = "IQKeyboardManager-IQKeyboardManager";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0123E7F21D32FED2BF11C850B010B301 /* FontAwesome.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesome.swift-umbrella.h"; sourceTree = "<group>"; };
+		0220B2EB39A1602A4E40FFDF36642CA0 /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+IQKeyboardToolbar.m"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		04AC6F1CCBF8F9879DDB6F5B128C5F24 /* FontAwesomeTextRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeTextRepresentable.swift; path = FontAwesome/FontAwesomeTextRepresentable.swift; sourceTree = "<group>"; };
+		0768DB51B1463586D16ADFE0133FA306 /* IQToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQToolbar.m; path = IQKeyboardManager/IQToolbar/IQToolbar.m; sourceTree = "<group>"; };
+		09D50F22BDDEAB8D681BAACB910F713F /* IQTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTextView.m; path = IQKeyboardManager/IQTextView/IQTextView.m; sourceTree = "<group>"; };
 		0A16A46FB3BF490F26E535D993A9A90C /* Pods-SuperVPN-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SuperVPN-frameworks.sh"; sourceTree = "<group>"; };
-		0C2C1CEBA90EF2313D7B6470D6ABC8F4 /* Font Awesome 5 Brands-Regular-400.otf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Font Awesome 5 Brands-Regular-400.otf"; path = "FontAwesome/Font Awesome 5 Brands-Regular-400.otf"; sourceTree = "<group>"; };
 		125D196F23105F0A54221711660E0D0F /* Pods-SuperVPN-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SuperVPN-umbrella.h"; sourceTree = "<group>"; };
-		19345E990FA51277E90825444CE24055 /* FontAwesomeImageRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeImageRepresentable.swift; path = FontAwesome/FontAwesomeImageRepresentable.swift; sourceTree = "<group>"; };
+		1313BE9F4A647DE003398BD83298D087 /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardReturnKeyHandler.m; path = IQKeyboardManager/IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		18063F71C1B157877566B44EFD0A38EB /* IQBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQBarButtonItem.h; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.h; sourceTree = "<group>"; };
+		19BBB2E899017B099CD725439A93A4FC /* IQKeyboardManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardManager.m; path = IQKeyboardManager/IQKeyboardManager.m; sourceTree = "<group>"; };
 		19EC4CDCA60161A455EE063E096600D7 /* Pods-SuperVPN-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SuperVPN-Info.plist"; sourceTree = "<group>"; };
+		1CAABB824F92A8F5554A3ED2BBDFD7DB /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+Hierarchy.h"; path = "IQKeyboardManager/Categories/IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		1DF5DC764AC71F1FE1439384DF9D3250 /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIScrollView+Additions.m"; path = "IQKeyboardManager/Categories/IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
+		1F2F30917FE42948D4B3F3F26A692736 /* IQToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQToolbar.h; path = IQKeyboardManager/IQToolbar/IQToolbar.h; sourceTree = "<group>"; };
+		2729FD190D70FC51FA8B0518DD802B12 /* IQKeyboardManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManager-dummy.m"; sourceTree = "<group>"; };
 		28A3CCFDC77829170B0B12EB9E3391CF /* FontAwesome_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FontAwesome_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BA0232A18F1365C53C1CC5C4F3B0897 /* Pods-SuperVPN.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SuperVPN.modulemap"; sourceTree = "<group>"; };
 		2D4EFB6CDD2817CC2C252A339D17A6BB /* Pods-SuperVPN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SuperVPN.release.xcconfig"; sourceTree = "<group>"; };
-		2DF26CFF1E862548F8E456C64372DC06 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3928A8ABB3C2BF8FA44AB80370B4A47B /* FontAwesome.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesome.swift-prefix.pch"; sourceTree = "<group>"; };
+		2EB128003C00B1AAA2FB1AF8DC6305A3 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = IQKeyboardManager/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		2EE0A312EF2B9D4C14F07B5605321BBF /* IQKeyboardManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManager.debug.xcconfig; sourceTree = "<group>"; };
+		353F21B0E528B49D524D22E5653ED91B /* ResourceBundle-IQKeyboardManager-IQKeyboardManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-IQKeyboardManager-IQKeyboardManager-Info.plist"; sourceTree = "<group>"; };
+		39A79B366175E956733CFCF8F5FE211F /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIScrollView+Additions.h"; path = "IQKeyboardManager/Categories/IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
+		3B26682EFF87D0EDC1CEC211FAEF7812 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		3B7E08464E47FA3B4CF478C420FC05E4 /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTitleBarButtonItem.m; path = IQKeyboardManager/IQToolbar/IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		3CA552F963A304ABEAE0477A31EC429E /* IQKeyboardManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManager-umbrella.h"; sourceTree = "<group>"; };
 		3DA4F5DC4EB6E9DF6B4859D27EF8C9F5 /* FontAwesome.swift-FontAwesome.swift */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "FontAwesome.swift-FontAwesome.swift"; path = FontAwesome.swift.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		43955DC46EC1BD1D4C435DDF075ACFEB /* Pods-SuperVPN-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SuperVPN-acknowledgements.plist"; sourceTree = "<group>"; };
-		4498CD77CA56A303105D868CBEC8B16C /* FontAwesomeTabBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeTabBarItem.swift; path = FontAwesome/FontAwesomeTabBarItem.swift; sourceTree = "<group>"; };
-		5335C59335110518772A59E794237AD6 /* ResourceBundle-FontAwesome.swift-FontAwesome.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FontAwesome.swift-FontAwesome.swift-Info.plist"; sourceTree = "<group>"; };
-		5BBB67486E5104807672AE5D3D24C302 /* FontAwesome.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FontAwesome.swift.modulemap; sourceTree = "<group>"; };
-		648E354A4196CEDEFD139B5AE32FE9D7 /* FontAwesome.swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FontAwesome.swift.debug.xcconfig; sourceTree = "<group>"; };
-		674D1D40192DD60CDCE454FA8FDB2FA7 /* FontAwesomeImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeImageView.swift; path = FontAwesome/FontAwesomeImageView.swift; sourceTree = "<group>"; };
-		6EEE99B982DB5D64D49BBC97032E92D0 /* FontAwesomeSegmentedControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeSegmentedControl.swift; path = FontAwesome/FontAwesomeSegmentedControl.swift; sourceTree = "<group>"; };
-		9633AA09D13E08713F56612757911FAB /* FontAwesome.swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FontAwesome.swift.release.xcconfig; sourceTree = "<group>"; };
-		9A0C25707AB1DDAD570F667B1B04CAF1 /* FontAwesome.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesome.swift-umbrella.h"; sourceTree = "<group>"; };
+		48062DEE097403829F7FBB8B2F8FB741 /* FontAwesomeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeView.swift; path = FontAwesome/FontAwesomeView.swift; sourceTree = "<group>"; };
+		4A3DF0872937CB8BC71E42B0CE27C1E6 /* Font Awesome 5 Free-Regular-400.otf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Font Awesome 5 Free-Regular-400.otf"; path = "FontAwesome/Font Awesome 5 Free-Regular-400.otf"; sourceTree = "<group>"; };
+		4C61D20EA4DA9205DCA7DE696F94820E /* Enum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Enum.swift; path = FontAwesome/Enum.swift; sourceTree = "<group>"; };
+		4CC77C112F926C0E6E02C918452E80DB /* FontAwesome.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FontAwesome.swift-Info.plist"; sourceTree = "<group>"; };
+		4F59BCB4ADE8F388FF1FA45D3E2DF3C7 /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardReturnKeyHandler.h; path = IQKeyboardManager/IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		50845B3662F1DEF05A6DC77B8FF8CA36 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		54C4FD2570B01AE232EE318F1B405451 /* FontAwesome.swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FontAwesome.swift.debug.xcconfig; sourceTree = "<group>"; };
+		5AAF8215E958267CF565729FC78189FB /* FontAwesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = FontAwesome/FontAwesome.swift; sourceTree = "<group>"; };
+		605FDC80F9FFDCF2F456F1CC4155D5DC /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstants.h; path = IQKeyboardManager/Constants/IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		615F79EBB0BB2F665F9FA259F6C5B3C2 /* IQTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTextView.h; path = IQKeyboardManager/IQTextView/IQTextView.h; sourceTree = "<group>"; };
+		63DDF1DFF2814A045C0152DEE85CF158 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6BCEA5E111A49C497F5458E347C18D65 /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIViewController+Additions.h"; path = "IQKeyboardManager/Categories/IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		72BBE3E2EAB874E6B98BFEBFB51FC09F /* IQKeyboardManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IQKeyboardManager.modulemap; sourceTree = "<group>"; };
+		738EE4B083DD531C1F1F122D1627C050 /* FontAwesome.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontAwesome.swift-dummy.m"; sourceTree = "<group>"; };
+		73C773EC1431A7E3C1D851EADE8D4C18 /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIViewController+Additions.m"; path = "IQKeyboardManager/Categories/IQUIViewController+Additions.m"; sourceTree = "<group>"; };
+		7A93477DCC29D3ECC5DF5F2937BBE1E3 /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUITextFieldView+Additions.h"; path = "IQKeyboardManager/Categories/IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		7C8C84601A09058C83419D53FEFA4703 /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+Hierarchy.m"; path = "IQKeyboardManager/Categories/IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		7FA4E233A182C1BE8E8E9B280ECA2EEB /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstantsInternal.h; path = IQKeyboardManager/Constants/IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		85FAAB6341B9D058BBDEDA54AE46A85A /* IQKeyboardManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManager.release.xcconfig; sourceTree = "<group>"; };
+		883E3CF95B96CC571E29C85E41D7435D /* FontAwesomeExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeExtension.swift; path = FontAwesome/FontAwesomeExtension.swift; sourceTree = "<group>"; };
+		931D15767ABBC58AEC4E33CE70229711 /* FontAwesomeStateRequirement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeStateRequirement.swift; path = FontAwesome/FontAwesomeStateRequirement.swift; sourceTree = "<group>"; };
+		938A2C2A6463CF28469330F0BEB7874E /* IQNSArray+Sort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQNSArray+Sort.h"; path = "IQKeyboardManager/Categories/IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		98527D7196957AAB07B79E2E2AFDE23E /* IQKeyboardManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IQKeyboardManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E981CCC025D6FB512CFBCFA3F6AC598 /* FontAwesomeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeView.swift; path = FontAwesome/FontAwesomeView.swift; sourceTree = "<group>"; };
-		AB35BA25BCF5481EA98DD604D4CDA3C8 /* FontAwesomeTextRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeTextRepresentable.swift; path = FontAwesome/FontAwesomeTextRepresentable.swift; sourceTree = "<group>"; };
-		B3CB4D5D38142B55F8DEA8FE8DEE31FC /* Font Awesome 5 Free-Regular-400.otf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Font Awesome 5 Free-Regular-400.otf"; path = "FontAwesome/Font Awesome 5 Free-Regular-400.otf"; sourceTree = "<group>"; };
-		B515EB03A3A8D03F85B1CA2FC5781F70 /* FontAwesomeBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeBarButtonItem.swift; path = FontAwesome/FontAwesomeBarButtonItem.swift; sourceTree = "<group>"; };
-		B868AB6D6A014D620C0AE1EC63AB8DB2 /* Font Awesome 5 Free-Solid-900.otf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Font Awesome 5 Free-Solid-900.otf"; path = "FontAwesome/Font Awesome 5 Free-Solid-900.otf"; sourceTree = "<group>"; };
+		9E484A73B17A5BAC5568816B07753471 /* FontAwesomeTabBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeTabBarItem.swift; path = FontAwesome/FontAwesomeTabBarItem.swift; sourceTree = "<group>"; };
+		A28239AED29C5FE5D10F37AEE68C7811 /* FontAwesomeSegmentedControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeSegmentedControl.swift; path = FontAwesome/FontAwesomeSegmentedControl.swift; sourceTree = "<group>"; };
+		A5B2838E4866923F3DA717B058EBFF5D /* IQKeyboardManager-IQKeyboardManager */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "IQKeyboardManager-IQKeyboardManager"; path = IQKeyboardManager.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAF9AF4D47FC962D1C3849AB7E14F0B6 /* IQNSArray+Sort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQNSArray+Sort.m"; path = "IQKeyboardManager/Categories/IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		AB7DABF52E19EC57600E73E4FD97ADA0 /* Font Awesome 5 Free-Solid-900.otf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Font Awesome 5 Free-Solid-900.otf"; path = "FontAwesome/Font Awesome 5 Free-Solid-900.otf"; sourceTree = "<group>"; };
+		AC3AF1FFEFFACA4535285247ACD11DF1 /* IQKeyboardManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManager-prefix.pch"; sourceTree = "<group>"; };
+		BA180922B02036602BF8E589A4D4AACF /* FontAwesomeBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeBarButtonItem.swift; path = FontAwesome/FontAwesomeBarButtonItem.swift; sourceTree = "<group>"; };
+		BC9EFAB39D3E8F797E51A24FB026C70E /* FontAwesome.swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FontAwesome.swift.release.xcconfig; sourceTree = "<group>"; };
+		BE8728ED71F32E583651ED5E4B47B0F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C2D869068CE2566366CACF16F1E9114A /* IQKeyboardManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IQKeyboardManager-Info.plist"; sourceTree = "<group>"; };
 		C364C88DF77E805E42B35E49F213B8D2 /* Pods-SuperVPN-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SuperVPN-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CFA76860B506E69F08B0B154D70C038E /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
-		D082EE12AF449DF2F3A809A21111C6B5 /* FontAwesome.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontAwesome.swift-dummy.m"; sourceTree = "<group>"; };
-		DE5CDD445FDD6EB85068C753708096D0 /* FontAwesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = FontAwesome/FontAwesome.swift; sourceTree = "<group>"; };
-		E74D207BDA239A25C1380A816F90FF59 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C498525A9624D2F9E43E2198D50EA60C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		C81FEF6DB7B9B8814F015829DCA8D28C /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTitleBarButtonItem.h; path = IQKeyboardManager/IQToolbar/IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		D9F45D1093833C81E49BE341F2D9470F /* ResourceBundle-FontAwesome.swift-FontAwesome.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FontAwesome.swift-FontAwesome.swift-Info.plist"; sourceTree = "<group>"; };
+		DA1BA5940A15C50A7EC981706E3878F5 /* Font Awesome 5 Brands-Regular-400.otf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Font Awesome 5 Brands-Regular-400.otf"; path = "FontAwesome/Font Awesome 5 Brands-Regular-400.otf"; sourceTree = "<group>"; };
+		DA98FCF71E630E67892267A7B47EAC79 /* FontAwesome.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesome.swift-prefix.pch"; sourceTree = "<group>"; };
+		DDEF0E490F06EBA493BADDC464043BFA /* FontAwesomeImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeImageView.swift; path = FontAwesome/FontAwesomeImageView.swift; sourceTree = "<group>"; };
+		DFABF3B77797C6C8E70F554239893592 /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUITextFieldView+Additions.m"; path = "IQKeyboardManager/Categories/IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
+		DFBA7E0CBF6ACEC66A45B85C313FEA4D /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+IQKeyboardToolbar.h"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		E6F51EC7B0878CA6864AFA0CD6E81707 /* IQBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQBarButtonItem.m; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.m; sourceTree = "<group>"; };
+		E704689BF52827C80AD74E873AD5C7F3 /* FontAwesome.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FontAwesome.swift.modulemap; sourceTree = "<group>"; };
+		E75EE20571036BEDA686FDA07DF4CD5F /* FontAwesomeImageRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeImageRepresentable.swift; path = FontAwesome/FontAwesomeImageRepresentable.swift; sourceTree = "<group>"; };
+		E8A0D1B72DD815DEF859090AD1EB0217 /* IQPreviousNextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQPreviousNextView.h; path = IQKeyboardManager/IQToolbar/IQPreviousNextView.h; sourceTree = "<group>"; };
+		E8CBDFD403E34151BC356DD8BB3B69B3 /* IQPreviousNextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQPreviousNextView.m; path = IQKeyboardManager/IQToolbar/IQPreviousNextView.m; sourceTree = "<group>"; };
 		E92A5D5A1E9071595584528355DCCD16 /* Pods-SuperVPN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SuperVPN.debug.xcconfig"; sourceTree = "<group>"; };
-		EAED4F1AD06B7B98AC09D70D55E95653 /* FontAwesome.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FontAwesome.swift-Info.plist"; sourceTree = "<group>"; };
-		EBD5E916D3C7E2E35D64B2372863FFAC /* Enum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Enum.swift; path = FontAwesome/Enum.swift; sourceTree = "<group>"; };
+		EAFD40EDB110D0C3833D103B63749DA3 /* IQKeyboardManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManager.h; path = IQKeyboardManager/IQKeyboardManager.h; sourceTree = "<group>"; };
 		ECC9B2D4053805AB0442865DD784AB96 /* Pods-SuperVPN-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SuperVPN-dummy.m"; sourceTree = "<group>"; };
-		F1D10D907C88996A1A72DB1524D9C6A6 /* FontAwesomeExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeExtension.swift; path = FontAwesome/FontAwesomeExtension.swift; sourceTree = "<group>"; };
-		F94CC7AB4FF680DB38539D6AA320CFBB /* FontAwesomeStateRequirement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeStateRequirement.swift; path = FontAwesome/FontAwesomeStateRequirement.swift; sourceTree = "<group>"; };
 		FF242567A9DF9B3DD3B1544664E27C1A /* Pods-SuperVPN */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SuperVPN"; path = Pods_SuperVPN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		16D8D45C234AFE1A0B3DCB6F91FC06A4 /* Frameworks */ = {
+		280C5F1ADCB0D96F20A87122A6B50BA6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC2E1AD6B7247FD7123BC50CADFD8E24 /* Foundation.framework in Frameworks */,
+				6A6E724315DF53637BAF9EE1989A8BC2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B552C5754A4D71CB575F64CBD18E8DA2 /* Frameworks */ = {
+		49405BC86D6AB1CEC0C6C1E719E2D888 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA88AECD3DD41CB4A264A9E2BD4AC5E9 /* CoreGraphics.framework in Frameworks */,
+				964FD3739E0AD429574C8CD23FB92027 /* Foundation.framework in Frameworks */,
+				26666110EDDA244F2FCDAD126BD9DB13 /* QuartzCore.framework in Frameworks */,
+				67A9FEA243EAA11139BEA6208D7AFB6D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA7E5FCF2FED33DE011F49E227CD137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2BBD4DD88275F684D5F2250C4577F9E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -119,12 +228,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+		3D476A753A9426C5FC72AB15BF691528 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				774DD89477A654AC8E4B43436316C693 /* iOS */,
+				72BBE3E2EAB874E6B98BFEBFB51FC09F /* IQKeyboardManager.modulemap */,
+				2729FD190D70FC51FA8B0518DD802B12 /* IQKeyboardManager-dummy.m */,
+				C2D869068CE2566366CACF16F1E9114A /* IQKeyboardManager-Info.plist */,
+				AC3AF1FFEFFACA4535285247ACD11DF1 /* IQKeyboardManager-prefix.pch */,
+				3CA552F963A304ABEAE0477A31EC429E /* IQKeyboardManager-umbrella.h */,
+				2EE0A312EF2B9D4C14F07B5605321BBF /* IQKeyboardManager.debug.xcconfig */,
+				85FAAB6341B9D058BBDEDA54AE46A85A /* IQKeyboardManager.release.xcconfig */,
+				353F21B0E528B49D524D22E5653ED91B /* ResourceBundle-IQKeyboardManager-IQKeyboardManager-Info.plist */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/IQKeyboardManager";
 			sourceTree = "<group>";
 		};
 		3F3C1CF4A74F1482445FDF35A0255100 /* Pods-SuperVPN */ = {
@@ -144,58 +261,124 @@
 			path = "Target Support Files/Pods-SuperVPN";
 			sourceTree = "<group>";
 		};
-		4E2BFE0FC672FCA7CA36B1142D3875D7 /* Pods */ = {
+		53D623D03F0B539DB6048AF607752D37 /* IQKeyboardManager */ = {
 			isa = PBXGroup;
 			children = (
-				C9A8D0E4EB8EFB2EBCAE8D23ADC779FE /* FontAwesome.swift */,
+				18063F71C1B157877566B44EFD0A38EB /* IQBarButtonItem.h */,
+				E6F51EC7B0878CA6864AFA0CD6E81707 /* IQBarButtonItem.m */,
+				EAFD40EDB110D0C3833D103B63749DA3 /* IQKeyboardManager.h */,
+				19BBB2E899017B099CD725439A93A4FC /* IQKeyboardManager.m */,
+				605FDC80F9FFDCF2F456F1CC4155D5DC /* IQKeyboardManagerConstants.h */,
+				7FA4E233A182C1BE8E8E9B280ECA2EEB /* IQKeyboardManagerConstantsInternal.h */,
+				4F59BCB4ADE8F388FF1FA45D3E2DF3C7 /* IQKeyboardReturnKeyHandler.h */,
+				1313BE9F4A647DE003398BD83298D087 /* IQKeyboardReturnKeyHandler.m */,
+				938A2C2A6463CF28469330F0BEB7874E /* IQNSArray+Sort.h */,
+				AAF9AF4D47FC962D1C3849AB7E14F0B6 /* IQNSArray+Sort.m */,
+				E8A0D1B72DD815DEF859090AD1EB0217 /* IQPreviousNextView.h */,
+				E8CBDFD403E34151BC356DD8BB3B69B3 /* IQPreviousNextView.m */,
+				615F79EBB0BB2F665F9FA259F6C5B3C2 /* IQTextView.h */,
+				09D50F22BDDEAB8D681BAACB910F713F /* IQTextView.m */,
+				C81FEF6DB7B9B8814F015829DCA8D28C /* IQTitleBarButtonItem.h */,
+				3B7E08464E47FA3B4CF478C420FC05E4 /* IQTitleBarButtonItem.m */,
+				1F2F30917FE42948D4B3F3F26A692736 /* IQToolbar.h */,
+				0768DB51B1463586D16ADFE0133FA306 /* IQToolbar.m */,
+				39A79B366175E956733CFCF8F5FE211F /* IQUIScrollView+Additions.h */,
+				1DF5DC764AC71F1FE1439384DF9D3250 /* IQUIScrollView+Additions.m */,
+				7A93477DCC29D3ECC5DF5F2937BBE1E3 /* IQUITextFieldView+Additions.h */,
+				DFABF3B77797C6C8E70F554239893592 /* IQUITextFieldView+Additions.m */,
+				1CAABB824F92A8F5554A3ED2BBDFD7DB /* IQUIView+Hierarchy.h */,
+				7C8C84601A09058C83419D53FEFA4703 /* IQUIView+Hierarchy.m */,
+				DFBA7E0CBF6ACEC66A45B85C313FEA4D /* IQUIView+IQKeyboardToolbar.h */,
+				0220B2EB39A1602A4E40FFDF36642CA0 /* IQUIView+IQKeyboardToolbar.m */,
+				6BCEA5E111A49C497F5458E347C18D65 /* IQUIViewController+Additions.h */,
+				73C773EC1431A7E3C1D851EADE8D4C18 /* IQUIViewController+Additions.m */,
+				557455792241A0B50C645F7A3A7DE975 /* Resources */,
+				3D476A753A9426C5FC72AB15BF691528 /* Support Files */,
 			);
-			name = Pods;
+			path = IQKeyboardManager;
 			sourceTree = "<group>";
 		};
-		5F88279AC2834221E893749827424940 /* Products */ = {
+		557455792241A0B50C645F7A3A7DE975 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				28A3CCFDC77829170B0B12EB9E3391CF /* FontAwesome_swift.framework */,
-				3DA4F5DC4EB6E9DF6B4859D27EF8C9F5 /* FontAwesome.swift-FontAwesome.swift */,
-				FF242567A9DF9B3DD3B1544664E27C1A /* Pods-SuperVPN */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		774DD89477A654AC8E4B43436316C693 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CFA76860B506E69F08B0B154D70C038E /* CoreText.framework */,
-				2DF26CFF1E862548F8E456C64372DC06 /* Foundation.framework */,
-				E74D207BDA239A25C1380A816F90FF59 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		84910682E553FCA3F25E120F9511818C /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				0C2C1CEBA90EF2313D7B6470D6ABC8F4 /* Font Awesome 5 Brands-Regular-400.otf */,
-				B3CB4D5D38142B55F8DEA8FE8DEE31FC /* Font Awesome 5 Free-Regular-400.otf */,
-				B868AB6D6A014D620C0AE1EC63AB8DB2 /* Font Awesome 5 Free-Solid-900.otf */,
+				2EB128003C00B1AAA2FB1AF8DC6305A3 /* PrivacyInfo.xcprivacy */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		B2FCC9B1726234FF0E32EBA800DCB5B5 /* Support Files */ = {
+		6681E0FD93F47965B042042B6F5606E6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5BBB67486E5104807672AE5D3D24C302 /* FontAwesome.swift.modulemap */,
-				D082EE12AF449DF2F3A809A21111C6B5 /* FontAwesome.swift-dummy.m */,
-				EAED4F1AD06B7B98AC09D70D55E95653 /* FontAwesome.swift-Info.plist */,
-				3928A8ABB3C2BF8FA44AB80370B4A47B /* FontAwesome.swift-prefix.pch */,
-				9A0C25707AB1DDAD570F667B1B04CAF1 /* FontAwesome.swift-umbrella.h */,
-				648E354A4196CEDEFD139B5AE32FE9D7 /* FontAwesome.swift.debug.xcconfig */,
-				9633AA09D13E08713F56612757911FAB /* FontAwesome.swift.release.xcconfig */,
-				5335C59335110518772A59E794237AD6 /* ResourceBundle-FontAwesome.swift-FontAwesome.swift-Info.plist */,
+				77F877621E2E0DD10E83E0CBFB326B28 /* FontAwesome.swift */,
+				53D623D03F0B539DB6048AF607752D37 /* IQKeyboardManager */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		774214BFCC7EE22C38B8790BE63C204E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C498525A9624D2F9E43E2198D50EA60C /* CoreGraphics.framework */,
+				3B26682EFF87D0EDC1CEC211FAEF7812 /* CoreText.framework */,
+				63DDF1DFF2814A045C0152DEE85CF158 /* Foundation.framework */,
+				50845B3662F1DEF05A6DC77B8FF8CA36 /* QuartzCore.framework */,
+				BE8728ED71F32E583651ED5E4B47B0F7 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		77F877621E2E0DD10E83E0CBFB326B28 /* FontAwesome.swift */ = {
+			isa = PBXGroup;
+			children = (
+				4C61D20EA4DA9205DCA7DE696F94820E /* Enum.swift */,
+				5AAF8215E958267CF565729FC78189FB /* FontAwesome.swift */,
+				BA180922B02036602BF8E589A4D4AACF /* FontAwesomeBarButtonItem.swift */,
+				883E3CF95B96CC571E29C85E41D7435D /* FontAwesomeExtension.swift */,
+				E75EE20571036BEDA686FDA07DF4CD5F /* FontAwesomeImageRepresentable.swift */,
+				DDEF0E490F06EBA493BADDC464043BFA /* FontAwesomeImageView.swift */,
+				A28239AED29C5FE5D10F37AEE68C7811 /* FontAwesomeSegmentedControl.swift */,
+				931D15767ABBC58AEC4E33CE70229711 /* FontAwesomeStateRequirement.swift */,
+				9E484A73B17A5BAC5568816B07753471 /* FontAwesomeTabBarItem.swift */,
+				04AC6F1CCBF8F9879DDB6F5B128C5F24 /* FontAwesomeTextRepresentable.swift */,
+				48062DEE097403829F7FBB8B2F8FB741 /* FontAwesomeView.swift */,
+				9A0D4A20D93B5DF291E7BBA3937CE94F /* Resources */,
+				89EB0B6E59D288711FC4D0CA96B41619 /* Support Files */,
+			);
+			path = FontAwesome.swift;
+			sourceTree = "<group>";
+		};
+		89EB0B6E59D288711FC4D0CA96B41619 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E704689BF52827C80AD74E873AD5C7F3 /* FontAwesome.swift.modulemap */,
+				738EE4B083DD531C1F1F122D1627C050 /* FontAwesome.swift-dummy.m */,
+				4CC77C112F926C0E6E02C918452E80DB /* FontAwesome.swift-Info.plist */,
+				DA98FCF71E630E67892267A7B47EAC79 /* FontAwesome.swift-prefix.pch */,
+				0123E7F21D32FED2BF11C850B010B301 /* FontAwesome.swift-umbrella.h */,
+				54C4FD2570B01AE232EE318F1B405451 /* FontAwesome.swift.debug.xcconfig */,
+				BC9EFAB39D3E8F797E51A24FB026C70E /* FontAwesome.swift.release.xcconfig */,
+				D9F45D1093833C81E49BE341F2D9470F /* ResourceBundle-FontAwesome.swift-FontAwesome.swift-Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/FontAwesome.swift";
+			sourceTree = "<group>";
+		};
+		9A0D4A20D93B5DF291E7BBA3937CE94F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DA1BA5940A15C50A7EC981706E3878F5 /* Font Awesome 5 Brands-Regular-400.otf */,
+				4A3DF0872937CB8BC71E42B0CE27C1E6 /* Font Awesome 5 Free-Regular-400.otf */,
+				AB7DABF52E19EC57600E73E4FD97ADA0 /* Font Awesome 5 Free-Solid-900.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B94D7768568A9992200DB461E8CF687F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				774214BFCC7EE22C38B8790BE63C204E /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		C284B6730A55DD23665CB29FAFF4FA81 /* Targets Support Files */ = {
@@ -206,45 +389,60 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C9A8D0E4EB8EFB2EBCAE8D23ADC779FE /* FontAwesome.swift */ = {
-			isa = PBXGroup;
-			children = (
-				EBD5E916D3C7E2E35D64B2372863FFAC /* Enum.swift */,
-				DE5CDD445FDD6EB85068C753708096D0 /* FontAwesome.swift */,
-				B515EB03A3A8D03F85B1CA2FC5781F70 /* FontAwesomeBarButtonItem.swift */,
-				F1D10D907C88996A1A72DB1524D9C6A6 /* FontAwesomeExtension.swift */,
-				19345E990FA51277E90825444CE24055 /* FontAwesomeImageRepresentable.swift */,
-				674D1D40192DD60CDCE454FA8FDB2FA7 /* FontAwesomeImageView.swift */,
-				6EEE99B982DB5D64D49BBC97032E92D0 /* FontAwesomeSegmentedControl.swift */,
-				F94CC7AB4FF680DB38539D6AA320CFBB /* FontAwesomeStateRequirement.swift */,
-				4498CD77CA56A303105D868CBEC8B16C /* FontAwesomeTabBarItem.swift */,
-				AB35BA25BCF5481EA98DD604D4CDA3C8 /* FontAwesomeTextRepresentable.swift */,
-				9E981CCC025D6FB512CFBCFA3F6AC598 /* FontAwesomeView.swift */,
-				84910682E553FCA3F25E120F9511818C /* Resources */,
-				B2FCC9B1726234FF0E32EBA800DCB5B5 /* Support Files */,
-			);
-			path = FontAwesome.swift;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
-				4E2BFE0FC672FCA7CA36B1142D3875D7 /* Pods */,
-				5F88279AC2834221E893749827424940 /* Products */,
+				B94D7768568A9992200DB461E8CF687F /* Frameworks */,
+				6681E0FD93F47965B042042B6F5606E6 /* Pods */,
+				EC0CF605A19A66726E45C73DC53785A3 /* Products */,
 				C284B6730A55DD23665CB29FAFF4FA81 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		EC0CF605A19A66726E45C73DC53785A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28A3CCFDC77829170B0B12EB9E3391CF /* FontAwesome_swift.framework */,
+				3DA4F5DC4EB6E9DF6B4859D27EF8C9F5 /* FontAwesome.swift-FontAwesome.swift */,
+				98527D7196957AAB07B79E2E2AFDE23E /* IQKeyboardManager.framework */,
+				A5B2838E4866923F3DA717B058EBFF5D /* IQKeyboardManager-IQKeyboardManager */,
+				FF242567A9DF9B3DD3B1544664E27C1A /* Pods-SuperVPN */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1D888D8EB49280233179118654CBB752 /* Headers */ = {
+		843C904A59E98C5A4AFEED0D366BDF88 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACCCC6E40B3B72917E93F699A3D8E0B6 /* Pods-SuperVPN-umbrella.h in Headers */,
+				8CDADDF28912AE948997ED06496066E9 /* Pods-SuperVPN-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C22A1C05E46C0DED88CE72D8D80CC185 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8F3DA03BA18E15BF539D477A6EE697C /* IQBarButtonItem.h in Headers */,
+				3F1EEB44A05489A1956820CA6153E14F /* IQKeyboardManager.h in Headers */,
+				BDA6686CAAF262A77287EA22AD37E38F /* IQKeyboardManager-umbrella.h in Headers */,
+				7F37541B413DB0BC2F271BF4153837FC /* IQKeyboardManagerConstants.h in Headers */,
+				9853AA203CC30AD5C36E609A5AFFFB91 /* IQKeyboardManagerConstantsInternal.h in Headers */,
+				014014F78C4B1EC4431614CFBF3F429A /* IQKeyboardReturnKeyHandler.h in Headers */,
+				47857B9C99D27CA560A780D28D4A8D47 /* IQNSArray+Sort.h in Headers */,
+				B6CE6D909F3C5430CF6B4DFBF38173BC /* IQPreviousNextView.h in Headers */,
+				A59D379D21A2352A9665371A3B49B83A /* IQTextView.h in Headers */,
+				B3146B3F1B81DE0D8AEA1AAC719D7768 /* IQTitleBarButtonItem.h in Headers */,
+				02B1C78D251F083443456460670FED57 /* IQToolbar.h in Headers */,
+				2071C1BF1EF3595212294FBFABCFAB5E /* IQUIScrollView+Additions.h in Headers */,
+				3FDCB355346F9831636DE0992226FD83 /* IQUITextFieldView+Additions.h in Headers */,
+				F1A0C4C171E15A63FC9D1724BB9EEA7C /* IQUIView+Hierarchy.h in Headers */,
+				687CE862203646EA92B2733BB8159202 /* IQUIView+IQKeyboardToolbar.h in Headers */,
+				26726C36F077800D0DFFAB54C882DE9D /* IQUIViewController+Additions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,13 +457,30 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		05B2A835D60F78761395189914B88047 /* IQKeyboardManager-IQKeyboardManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6063B054ABC7DBBDBD5B475A24F4F47 /* Build configuration list for PBXNativeTarget "IQKeyboardManager-IQKeyboardManager" */;
+			buildPhases = (
+				87BD78502E8385884A9B29614E205288 /* Sources */,
+				A2BBD4DD88275F684D5F2250C4577F9E /* Frameworks */,
+				361362C55272728FF3922D1FD39350CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IQKeyboardManager-IQKeyboardManager";
+			productName = IQKeyboardManager;
+			productReference = A5B2838E4866923F3DA717B058EBFF5D /* IQKeyboardManager-IQKeyboardManager */;
+			productType = "com.apple.product-type.bundle";
+		};
 		4DC20DD2E50259D674257304EC016C93 /* FontAwesome.swift-FontAwesome.swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD6DD87414171E180BE4B751D06EEDE0 /* Build configuration list for PBXNativeTarget "FontAwesome.swift-FontAwesome.swift" */;
+			buildConfigurationList = C87C7CC7BD896888F18D85A5AE392F64 /* Build configuration list for PBXNativeTarget "FontAwesome.swift-FontAwesome.swift" */;
 			buildPhases = (
-				E29082138270FC81319FCC7A00EE2A63 /* Sources */,
-				B552C5754A4D71CB575F64CBD18E8DA2 /* Frameworks */,
-				05A9DCDC3B98FFE61BC98455D7E311D9 /* Resources */,
+				C97C198A01F5337C9BA3E58135E4C12B /* Sources */,
+				8CA7E5FCF2FED33DE011F49E227CD137 /* Frameworks */,
+				84945639E6412A9623460CC230FA2377 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -278,17 +493,18 @@
 		};
 		53DA27C05632AE351F6EAD3BFED70FBD /* Pods-SuperVPN */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 984D6574FC0FB371BC9E90ACED93BE54 /* Build configuration list for PBXNativeTarget "Pods-SuperVPN" */;
+			buildConfigurationList = BF11A417B463F25D9489D7983659EE0E /* Build configuration list for PBXNativeTarget "Pods-SuperVPN" */;
 			buildPhases = (
-				1D888D8EB49280233179118654CBB752 /* Headers */,
-				BCE0D68BF9C43C8BE3A5FF8B296666D3 /* Sources */,
-				16D8D45C234AFE1A0B3DCB6F91FC06A4 /* Frameworks */,
-				8C1FC3E1440B91E0B16A6F4F983973B9 /* Resources */,
+				843C904A59E98C5A4AFEED0D366BDF88 /* Headers */,
+				459D888B78578C67CEB3909ABEABBFF9 /* Sources */,
+				280C5F1ADCB0D96F20A87122A6B50BA6 /* Frameworks */,
+				8287887704A71D087B63A5F865930D65 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D2005DC9125583E558F1380CB01051A2 /* PBXTargetDependency */,
+				B515590B3ADD3003D436933B7735B293 /* PBXTargetDependency */,
+				DE79CD6DC7F25D78207AD650FD70EF05 /* PBXTargetDependency */,
 			);
 			name = "Pods-SuperVPN";
 			productName = Pods_SuperVPN;
@@ -307,11 +523,30 @@
 			buildRules = (
 			);
 			dependencies = (
-				9FBE72B70F8C433FD4FD84E001ADC6C6 /* PBXTargetDependency */,
+				3734DA3BCE669C92B34D3645735C4EDC /* PBXTargetDependency */,
 			);
 			name = FontAwesome.swift;
 			productName = FontAwesome_swift;
 			productReference = 28A3CCFDC77829170B0B12EB9E3391CF /* FontAwesome_swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FBA456CB50E371584C11231929A0971E /* IQKeyboardManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2535FA06CD59D1419ACF87CF25792A0 /* Build configuration list for PBXNativeTarget "IQKeyboardManager" */;
+			buildPhases = (
+				C22A1C05E46C0DED88CE72D8D80CC185 /* Headers */,
+				EC2DDB618F369F7B0B6F815CC8EB62C6 /* Sources */,
+				49405BC86D6AB1CEC0C6C1E719E2D888 /* Frameworks */,
+				61482CE102C9D978BEC82A8290FEBF09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B151F68DE6D7A7D422CB34329F72F18B /* PBXTargetDependency */,
+			);
+			name = IQKeyboardManager;
+			productName = IQKeyboardManager;
+			productReference = 98527D7196957AAB07B79E2E2AFDE23E /* IQKeyboardManager.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -332,28 +567,20 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 5F88279AC2834221E893749827424940 /* Products */;
+			productRefGroup = EC0CF605A19A66726E45C73DC53785A3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				BB240150692F32EC312F3CF346C8B9D1 /* FontAwesome.swift */,
 				4DC20DD2E50259D674257304EC016C93 /* FontAwesome.swift-FontAwesome.swift */,
+				FBA456CB50E371584C11231929A0971E /* IQKeyboardManager */,
+				05B2A835D60F78761395189914B88047 /* IQKeyboardManager-IQKeyboardManager */,
 				53DA27C05632AE351F6EAD3BFED70FBD /* Pods-SuperVPN */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		05A9DCDC3B98FFE61BC98455D7E311D9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				90B829486C73003C302369045D4F8DB2 /* Font Awesome 5 Brands-Regular-400.otf in Resources */,
-				0267DA7411E4063EF9CE2932DB83B3FA /* Font Awesome 5 Free-Regular-400.otf in Resources */,
-				BF438BAA8F25B4D8CDC90CEC8051F98C /* Font Awesome 5 Free-Solid-900.otf in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1D86A0D5260C482C204DD00C06958D11 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -362,16 +589,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8C1FC3E1440B91E0B16A6F4F983973B9 /* Resources */ = {
+		361362C55272728FF3922D1FD39350CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A38BDEC665BA2A8095CE65B6723D723 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61482CE102C9D978BEC82A8290FEBF09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB29DE47D5DBB278F6DA9173105F0A87 /* IQKeyboardManager-IQKeyboardManager in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8287887704A71D087B63A5F865930D65 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		84945639E6412A9623460CC230FA2377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A06677AF68A61857F6B51B3B29B8C5CA /* Font Awesome 5 Brands-Regular-400.otf in Resources */,
+				778C9F7C05B1ED491D5328FF23B7EE68 /* Font Awesome 5 Free-Regular-400.otf in Resources */,
+				EDD0AA344377A4451F9AC69948C4DEEA /* Font Awesome 5 Free-Solid-900.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		459D888B78578C67CEB3909ABEABBFF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17CE39CC931E3E63BD4F36A6182EAA76 /* Pods-SuperVPN-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		497D27F8E1126C0CDCE59BF435620E6F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -391,42 +652,74 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BCE0D68BF9C43C8BE3A5FF8B296666D3 /* Sources */ = {
+		87BD78502E8385884A9B29614E205288 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B4EE5092420ADC7C5324AA300D7B640 /* Pods-SuperVPN-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E29082138270FC81319FCC7A00EE2A63 /* Sources */ = {
+		C97C198A01F5337C9BA3E58135E4C12B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2DDB618F369F7B0B6F815CC8EB62C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60A20CA162F4C986ECCBC795C6BA6998 /* IQBarButtonItem.m in Sources */,
+				25535EF5C82FB16868360CB8D8C91470 /* IQKeyboardManager.m in Sources */,
+				30527ED48ADA9326648216F95C7D8363 /* IQKeyboardManager-dummy.m in Sources */,
+				69BE2AFC237F2F3D8287572E4799ED8C /* IQKeyboardReturnKeyHandler.m in Sources */,
+				C74044BF8687B9ACEFA4A18FC68B017B /* IQNSArray+Sort.m in Sources */,
+				5A36EC9DDB56E7F0367C19DCB4156AF2 /* IQPreviousNextView.m in Sources */,
+				52E27DD1EB9069FE32F07DC519501016 /* IQTextView.m in Sources */,
+				CC7C96CF59D76614AFEE2E9388D4D313 /* IQTitleBarButtonItem.m in Sources */,
+				FCB2571FCBAF799FD83077DD907823A5 /* IQToolbar.m in Sources */,
+				D11F97E48838E6CA6ED6BCF05C77D7AB /* IQUIScrollView+Additions.m in Sources */,
+				532685419365EAACAF8A3386E5CFF35F /* IQUITextFieldView+Additions.m in Sources */,
+				BECFA91B45D866C5081400F8D1EAA609 /* IQUIView+Hierarchy.m in Sources */,
+				A00993110AB4A59FB2C48FB3ACABD7AF /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				4086DD1C562716BEEC66AD025A22F94D /* IQUIViewController+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9FBE72B70F8C433FD4FD84E001ADC6C6 /* PBXTargetDependency */ = {
+		3734DA3BCE669C92B34D3645735C4EDC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "FontAwesome.swift-FontAwesome.swift";
 			target = 4DC20DD2E50259D674257304EC016C93 /* FontAwesome.swift-FontAwesome.swift */;
-			targetProxy = 31EF0AD5ED7B64C8B603700A4FE1C247 /* PBXContainerItemProxy */;
+			targetProxy = A631EA8F58BB973154618BBE0F33A9B6 /* PBXContainerItemProxy */;
 		};
-		D2005DC9125583E558F1380CB01051A2 /* PBXTargetDependency */ = {
+		B151F68DE6D7A7D422CB34329F72F18B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "IQKeyboardManager-IQKeyboardManager";
+			target = 05B2A835D60F78761395189914B88047 /* IQKeyboardManager-IQKeyboardManager */;
+			targetProxy = BBC8CF1D8779DE19C596558B2FE24A64 /* PBXContainerItemProxy */;
+		};
+		B515590B3ADD3003D436933B7735B293 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FontAwesome.swift;
 			target = BB240150692F32EC312F3CF346C8B9D1 /* FontAwesome.swift */;
-			targetProxy = 73296DDBFB73581B4F2CE3A087F4EE4F /* PBXContainerItemProxy */;
+			targetProxy = 8EEDE4626488A85DC0D8CEF88A65ECDB /* PBXContainerItemProxy */;
+		};
+		DE79CD6DC7F25D78207AD650FD70EF05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IQKeyboardManager;
+			target = FBA456CB50E371584C11231929A0971E /* IQKeyboardManager */;
+			targetProxy = 24DF3F3F26E0FC1AA1174959CA63AAE1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		5DCA04F444C2E5A206B1A2067E2778D4 /* Release */ = {
+		14EEE7F81C91B5C3F3475016CFA76401 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9633AA09D13E08713F56612757911FAB /* FontAwesome.swift.release.xcconfig */;
+			baseConfigurationReference = BC9EFAB39D3E8F797E51A24FB026C70E /* FontAwesome.swift.release.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FontAwesome.swift";
 				IBSC_MODULE = FontAwesome_swift;
@@ -440,11 +733,42 @@
 			};
 			name = Release;
 		};
-		686D184460FD287952A3EBE253F92B80 /* Debug */ = {
+		2527E41BD6B3712DBCC1B374BB5171F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E92A5D5A1E9071595584528355DCCD16 /* Pods-SuperVPN.debug.xcconfig */;
+			baseConfigurationReference = 2EE0A312EF2B9D4C14F07B5605321BBF /* IQKeyboardManager.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/IQKeyboardManager";
+				IBSC_MODULE = IQKeyboardManager;
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManager/ResourceBundle-IQKeyboardManager-IQKeyboardManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = IQKeyboardManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		273F50C17F806FE49067D8CB6F9B3115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54C4FD2570B01AE232EE318F1B405451 /* FontAwesome.swift.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FontAwesome.swift";
+				IBSC_MODULE = FontAwesome_swift;
+				INFOPLIST_FILE = "Target Support Files/FontAwesome.swift/ResourceBundle-FontAwesome.swift-FontAwesome.swift-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FontAwesome.swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		2CF4A8064D89A719E60717A79A5F9B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85FAAB6341B9D058BBDEDA54AE46A85A /* IQKeyboardManager.release.xcconfig */;
+			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -454,7 +778,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SuperVPN/Pods-SuperVPN-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManager/IQKeyboardManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManager/IQKeyboardManager-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -462,15 +787,49 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SuperVPN/Pods-SuperVPN.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManager/IQKeyboardManager.modulemap";
+				PRODUCT_MODULE_NAME = IQKeyboardManager;
+				PRODUCT_NAME = IQKeyboardManager;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		575333D009FFAFAD55EBFCE4342F9B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EE0A312EF2B9D4C14F07B5605321BBF /* IQKeyboardManager.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManager/IQKeyboardManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManager/IQKeyboardManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManager/IQKeyboardManager.modulemap";
+				PRODUCT_MODULE_NAME = IQKeyboardManager;
+				PRODUCT_NAME = IQKeyboardManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -479,7 +838,7 @@
 		};
 		77685F2105770A2454F3EE6AB6DE2F34 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 648E354A4196CEDEFD139B5AE32FE9D7 /* FontAwesome.swift.debug.xcconfig */;
+			baseConfigurationReference = 54C4FD2570B01AE232EE318F1B405451 /* FontAwesome.swift.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -577,6 +936,59 @@
 			};
 			name = Debug;
 		};
+		907DDD24055114359EA567F86925BCEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E92A5D5A1E9071595584528355DCCD16 /* Pods-SuperVPN.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SuperVPN/Pods-SuperVPN-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SuperVPN/Pods-SuperVPN.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		993700717C49B73FCD09E25315BED4B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85FAAB6341B9D058BBDEDA54AE46A85A /* IQKeyboardManager.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/IQKeyboardManager";
+				IBSC_MODULE = IQKeyboardManager;
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManager/ResourceBundle-IQKeyboardManager-IQKeyboardManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = IQKeyboardManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -639,23 +1051,7 @@
 			};
 			name = Release;
 		};
-		D03E9B1D30AC1838257FAF865C40AE37 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 648E354A4196CEDEFD139B5AE32FE9D7 /* FontAwesome.swift.debug.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FontAwesome.swift";
-				IBSC_MODULE = FontAwesome_swift;
-				INFOPLIST_FILE = "Target Support Files/FontAwesome.swift/ResourceBundle-FontAwesome.swift-FontAwesome.swift-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = FontAwesome.swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		F120C7F8B5443A5AFA70943383FAB990 /* Release */ = {
+		DB486C2CA0F76B889DCA0348592536D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2D4EFB6CDD2817CC2C252A339D17A6BB /* Pods-SuperVPN.release.xcconfig */;
 			buildSettings = {
@@ -695,7 +1091,7 @@
 		};
 		FF5F68A4C7265F1A9AF8D566ACDFBE62 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9633AA09D13E08713F56612757911FAB /* FontAwesome.swift.release.xcconfig */;
+			baseConfigurationReference = BC9EFAB39D3E8F797E51A24FB026C70E /* FontAwesome.swift.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -749,20 +1145,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		984D6574FC0FB371BC9E90ACED93BE54 /* Build configuration list for PBXNativeTarget "Pods-SuperVPN" */ = {
+		A6063B054ABC7DBBDBD5B475A24F4F47 /* Build configuration list for PBXNativeTarget "IQKeyboardManager-IQKeyboardManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				686D184460FD287952A3EBE253F92B80 /* Debug */,
-				F120C7F8B5443A5AFA70943383FAB990 /* Release */,
+				2527E41BD6B3712DBCC1B374BB5171F8 /* Debug */,
+				993700717C49B73FCD09E25315BED4B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD6DD87414171E180BE4B751D06EEDE0 /* Build configuration list for PBXNativeTarget "FontAwesome.swift-FontAwesome.swift" */ = {
+		BF11A417B463F25D9489D7983659EE0E /* Build configuration list for PBXNativeTarget "Pods-SuperVPN" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D03E9B1D30AC1838257FAF865C40AE37 /* Debug */,
-				5DCA04F444C2E5A206B1A2067E2778D4 /* Release */,
+				907DDD24055114359EA567F86925BCEA /* Debug */,
+				DB486C2CA0F76B889DCA0348592536D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C87C7CC7BD896888F18D85A5AE392F64 /* Build configuration list for PBXNativeTarget "FontAwesome.swift-FontAwesome.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				273F50C17F806FE49067D8CB6F9B3115 /* Debug */,
+				14EEE7F81C91B5C3F3475016CFA76401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2535FA06CD59D1419ACF87CF25792A0 /* Build configuration list for PBXNativeTarget "IQKeyboardManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				575333D009FFAFAD55EBFCE4342F9B19 /* Debug */,
+				2CF4A8064D89A719E60717A79A5F9B94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

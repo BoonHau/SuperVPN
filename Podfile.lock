@@ -1,16 +1,20 @@
 PODS:
   - FontAwesome.swift (1.9.1)
+  - IQKeyboardManager (6.5.19)
 
 DEPENDENCIES:
-  - FontAwesome.swift
+  - FontAwesome.swift (= 1.9.1)
+  - IQKeyboardManager (= 6.5.19)
 
 SPEC REPOS:
   trunk:
     - FontAwesome.swift
+    - IQKeyboardManager
 
 SPEC CHECKSUMS:
   FontAwesome.swift: 6b52cb7be66eacd28cbfaa0ca7ffd0de4a186a1d
+  IQKeyboardManager: c8665b3396bd0b79402b4c573eac345a31c7d485
 
-PODFILE CHECKSUM: ef3b55a0667d74afa05ec26831fea3637ec9cb72
+PODFILE CHECKSUM: dd93295f603e50a6c3d1a51011db95fbb5cb308e
 
 COCOAPODS: 1.11.3
